@@ -1,0 +1,8 @@
+C:\Users\jer\Dropbox\School\Sp2_17\c#\Week3\JDichiera_webapp\bin\Debug\netcoreapp1.1\JDichiera_webapp.deps.json
+C:\Users\jer\Dropbox\School\Sp2_17\c#\Week3\JDichiera_webapp\bin\Debug\netcoreapp1.1\JDichiera_webapp.runtimeconfig.json
+C:\Users\jer\Dropbox\School\Sp2_17\c#\Week3\JDichiera_webapp\bin\Debug\netcoreapp1.1\JDichiera_webapp.runtimeconfig.dev.json
+C:\Users\jer\Dropbox\School\Sp2_17\c#\Week3\JDichiera_webapp\bin\Debug\netcoreapp1.1\JDichiera_webapp.dll
+C:\Users\jer\Dropbox\School\Sp2_17\c#\Week3\JDichiera_webapp\bin\Debug\netcoreapp1.1\JDichiera_webapp.pdb
+C:\Users\jer\Dropbox\School\Sp2_17\c#\Week3\JDichiera_webapp\obj\Debug\netcoreapp1.1\JDichiera_webapp.AssemblyInfo.cs
+C:\Users\jer\Dropbox\School\Sp2_17\c#\Week3\JDichiera_webapp\obj\Debug\netcoreapp1.1\JDichiera_webapp.dll
+C:\Users\jer\Dropbox\School\Sp2_17\c#\Week3\JDichiera_webapp\obj\Debug\netcoreapp1.1\JDichiera_webapp.pdb

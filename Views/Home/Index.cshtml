@@ -1,0 +1,109 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Warkle Home Page";
+}
+
+<!--Main container-->
+<div class="container">
+    
+    <div class="row"> <!--Top Row-->
+        <div class="col-md-12 text-center">
+            <h1 id="title">Warkle</h1>
+            <h3>Score = <span class="greentext" id="score" data-value="0">0</span></h3>
+            <h5>Rolling Score = <span class="greentext" id="rollingscore" data-value="0">0</span></h5>
+        </div>
+    </div> <!--Top Row End-->
+
+        <div class="container col-md-6"> <!-- Die box container-->
+            <div class="row"> <!--Roll box row -->
+                <div class="col-md-6 dicebox text-center" id="rollbox">
+                    <button type="button" class="btn-primary bigbutton"  id="startbutton">Start  Game</button>
+                    <button type="button" class="diebutton hidden" id="die1" data-value="1" data-held="false">
+                        <img id="die1Image" src="~/images/dieFace1.png"/>
+                    </button>
+                    <button type="button" class="diebutton hidden" id="die2" data-value="1" data-held="false">
+                        <img id="die2Image" src="~/images/dieFace1.png"/>
+                    </button>
+                    <button type="button" class="diebutton hidden" id="die3" data-value="1" data-held="false">
+                        <img id="die3Image" src="~/images/dieFace1.png"/>
+                    </button>
+                    <button type="button" class="diebutton hidden" id="die4" data-value="1" data-held="false">
+                        <img id="die4Image" src="~/images/dieFace1.png"/>
+                    </button>
+                    <button type="button" class="diebutton hidden" id="die5" data-value="1" data-held="false">
+                        <img id="die5Image" src="~/images/dieFace1.png"/>
+                    </button>
+                    <button type="button" class="diebutton hidden" id="die6" data-value="1" data-held="false">
+                        <img id="die6Image" src="~/images/dieFace1.png"/>
+                    </button>
+                </div>
+            </div><!--Roll box row end-->
+
+            <div class="row"> <!--Hold box row -->
+                <div class="col-md-6 dicebox text-center" id="holdbox"></div>
+            </div><!--Hold box row end-->
+        </div> <!-- Die box container end-->
+
+
+<div class="container col-md-6 text-center"> <!-- Info container-->
+    <div id="buttons">
+                <button type="button" class="btn-primary bigbutton hidden" id="rolldice">Roll Dice</button>
+                
+                <button type="button" class="btn-primary bigbutton hidden" id="takescore">Take Score</button>
+
+                <button type="button" class="btn-primary bigbutton hidden" id="resetdice">Reset Dice </button>
+    </div>
+
+    <div id="warkletext" class="redtext hidden"><strong>Warkle!</strong> - Did not roll a 1 or a 5. All rolling score lost. Press Reset Dice to start rolling again</div> 
+                <h3>Scoring</h3>
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Die</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tr id="fives">
+                        <td>Each Five</td>
+                        <td>50</td>
+                    </tr>
+                    <tr id="ones">
+                        <td>Each One</td>
+                        <td>100</td>
+                    </tr>
+                    <tr id="triple1">
+                        <td>Triple Ones</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr id="triple2">
+                        <td>Triple 2</td>
+                        <td>200</td>
+                    </tr>
+                    <tr id="triple3">
+                        <td>Triple 3</td>
+                        <td>300</td>
+                    </tr>
+                    <tr id="triple4">
+                        <td>Triple 4</td>
+                        <td>400</td>
+                    </tr>
+                    <tr id="triple5">
+                        <td>Triple 5</td>
+                        <td>500</td>
+                    </tr>
+                    <tr id="triple6">
+                        <td>Triple 6</td>
+                        <td>600</td>
+                    </tr>
+                    <tr id="doubletriple1">
+                        <td>Double Triple Ones</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr id="straight">
+                        <td>Straight</td>
+                        <td>1000</td>
+                    </tr>
+                </table>
+       
+
+</div><!-- Info container end-->
